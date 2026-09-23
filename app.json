@@ -1,0 +1,18 @@
+{
+  "name": "♥️Abdul Rehman Md Pair♥️",
+  "description": "SESSION ID GENERATOR FOR WHATSAPP BOTS",
+  "logo": "https://files.catbox.moe/prkkzj.png",
+  "repository": "https://github.com/ArslanMDofficial/Arslan-MD-Mini-V2",
+  "keywords": ["@abdulrehmanMd"],
+  "success_url": "/", 
+  "buildpacks": [
+    { "url": "https://github.com/heroku/heroku-buildpack-nodejs#latest" }
+  ],
+  "env": {      
+    "MESSAGE": {
+      "description": "Msg Attached With Session ID",
+      "value": "🔰 BY || AbdulRehman MD OFFICIAL 🔰",
+      "required": false 
+    }
+  }
+}
